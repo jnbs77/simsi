@@ -1,0 +1,222 @@
+[
+  {
+    "_id": "56ee7eff4e84f26265203ed1",
+    "guid": "84c64635-863c-49b2-9ea5-aa5a17fa29a6",
+    "index": 0,
+    "round": 1,
+    "ressources": 28,
+    "annualbudget": "$214,105",
+    "applications": [
+      {
+        "id": 0,
+        "guid": "3e284af8-70fc-455a-9d9a-4b944b958094",
+        "name": "Cuizine",
+        "type": "Contrats",
+        "releasedate": "24/08/07",
+        "usersatisfactionscore": {
+          "overallScore": "96%",
+          "ergonomyScore": "5%",
+          "stabilityScore": "49%",
+          "PerformanceScore": "4%"
+        },
+        "bugs": {
+          "minor": 17,
+          "major": 21,
+          "critical": 7
+        },
+        "nbUsers": 180,
+        "tps": 43,
+        "annualfees": "$8,557"
+      },
+      {
+        "id": 1,
+        "guid": "348de558-01c1-4ead-9334-3c7ab50c70a9",
+        "name": "Magneato",
+        "type": "Décisionnel",
+        "releasedate": "19/09/10",
+        "usersatisfactionscore": {
+          "overallScore": "76%",
+          "ergonomyScore": "99%",
+          "stabilityScore": "89%",
+          "PerformanceScore": "51%"
+        },
+        "bugs": {
+          "minor": 35,
+          "major": 25,
+          "critical": 1
+        },
+        "nbUsers": 120,
+        "tps": 35,
+        "annualfees": "$594"
+      },
+      {
+        "id": 2,
+        "guid": "8200dd1f-da98-4beb-9924-f265a0246b32",
+        "name": "Coash",
+        "type": "CRM",
+        "releasedate": "05/08/15",
+        "usersatisfactionscore": {
+          "overallScore": "58%",
+          "ergonomyScore": "22%",
+          "stabilityScore": "67%",
+          "PerformanceScore": "56%"
+        },
+        "bugs": {
+          "minor": 3,
+          "major": 0,
+          "critical": 7
+        },
+        "nbUsers": 20,
+        "tps": 87,
+        "annualfees": "$7,242"
+      },
+      {
+        "id": 3,
+        "guid": "0fb3a246-fd38-466e-8c9a-1d0fd7da61a9",
+        "name": "Zolarex",
+        "type": "Portail internet",
+        "releasedate": "22/01/10",
+        "usersatisfactionscore": {
+          "overallScore": "48%",
+          "ergonomyScore": "77%",
+          "stabilityScore": "32%",
+          "PerformanceScore": "11%"
+        },
+        "bugs": {
+          "minor": 2,
+          "major": 30,
+          "critical": 6
+        },
+        "nbUsers": 100,
+        "tps": 10,
+        "annualfees": "$6,831"
+      },
+      {
+        "id": 4,
+        "guid": "9fb96077-fabe-4b78-b1fd-2ed4746a9619",
+        "name": "Opticom",
+        "type": "Décisionnel",
+        "releasedate": "25/03/06",
+        "usersatisfactionscore": {
+          "overallScore": "67%",
+          "ergonomyScore": "95%",
+          "stabilityScore": "36%",
+          "PerformanceScore": "7%"
+        },
+        "bugs": {
+          "minor": 38,
+          "major": 16,
+          "critical": 0
+        },
+        "nbUsers": 50,
+        "tps": 106,
+        "annualfees": "$2,580"
+      },
+      {
+        "id": 5,
+        "guid": "70f171e1-ded7-4acb-b1bc-945ea879eb58",
+        "name": "Liquicom",
+        "type": "Portail internet",
+        "releasedate": "07/05/14",
+        "usersatisfactionscore": {
+          "overallScore": "37%",
+          "ergonomyScore": "50%",
+          "stabilityScore": "33%",
+          "PerformanceScore": "5%"
+        },
+        "bugs": {
+          "minor": 12,
+          "major": 20,
+          "critical": 8
+        },
+        "nbUsers": 120,
+        "tps": 114,
+        "annualfees": "$6,799"
+      },
+      {
+        "id": 6,
+        "guid": "db89a2f1-b256-4e42-8eea-d7546038e424",
+        "name": "Isopop",
+        "type": "Décisionnel",
+        "releasedate": "02/01/12",
+        "usersatisfactionscore": {
+          "overallScore": "45%",
+          "ergonomyScore": "5%",
+          "stabilityScore": "5%",
+          "PerformanceScore": "80%"
+        },
+        "bugs": {
+          "minor": 30,
+          "major": 19,
+          "critical": 4
+        },
+        "nbUsers": 150,
+        "tps": 115,
+        "annualfees": "$2,897"
+      },
+      {
+        "id": 7,
+        "guid": "24b2d5fe-492f-4529-936d-c590ff8d5966",
+        "name": "Roughies",
+        "type": "Facturation",
+        "releasedate": "06/04/11",
+        "usersatisfactionscore": {
+          "overallScore": "32%",
+          "ergonomyScore": "26%",
+          "stabilityScore": "24%",
+          "PerformanceScore": "33%"
+        },
+        "bugs": {
+          "minor": 38,
+          "major": 7,
+          "critical": 4
+        },
+        "nbUsers": 90,
+        "tps": 94,
+        "annualfees": "$5,456"
+      },
+      {
+        "id": 8,
+        "guid": "7ab515b3-3e68-45f1-ae73-a4da14c78de7",
+        "name": "Telequiet",
+        "type": "Comptabilité",
+        "releasedate": "05/11/10",
+        "usersatisfactionscore": {
+          "overallScore": "65%",
+          "ergonomyScore": "28%",
+          "stabilityScore": "9%",
+          "PerformanceScore": "82%"
+        },
+        "bugs": {
+          "minor": 40,
+          "major": 3,
+          "critical": 6
+        },
+        "nbUsers": 10,
+        "tps": 78,
+        "annualfees": "$7,051"
+      },
+      {
+        "id": 9,
+        "guid": "393fbda7-d288-4c90-a102-78d498ad9d43",
+        "name": "Viasia",
+        "type": "Contrats",
+        "releasedate": "13/08/10",
+        "usersatisfactionscore": {
+          "overallScore": "94%",
+          "ergonomyScore": "31%",
+          "stabilityScore": "80%",
+          "PerformanceScore": "25%"
+        },
+        "bugs": {
+          "minor": 49,
+          "major": 29,
+          "critical": 4
+        },
+        "nbUsers": 100,
+        "tps": 89,
+        "annualfees": "$4,991"
+      }
+    ]
+  }
+]

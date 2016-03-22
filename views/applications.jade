@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    
+    each round, i in rounds
+        h1.= 'Round ' + round.round
+        h1. Applications List
+        ul
+            each application, i in round.applications
+                li= application.name
+        form#formNextRound(name="nextround",method="post",action="/nextround")
+            input#inputRound(type="hidden", value="#{round.round}", name="round") 
+            input#inputGame(type="hidden", value="#{round.guid}", name="game") 
+            button#btnNextRound(type="submit") next round

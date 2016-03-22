@@ -1,0 +1,34 @@
+[
+{  
+      _id:'{{objectId()}}',
+      guid:'{{guid()}}',
+      index:'{{index()}}',
+      round:'1',
+      ressources:'{{integer(20,30)}}',
+      annualbudget:'{{floating(150000, 300000, 0, "$0,0")}}',
+      applications:[  
+         '{{repeat(10)}}',
+         {  
+            id:'{{index()}}',
+            guid:'{{guid()}}',
+            name:'{{company()}}',
+            type:'{{random("Portail internet", "Application Mobile", "CRM", "Contrats", "Facturation", "Comptabilité", "Décisionnel")}}',
+            releasedate:'{{date(new Date(2006, 0, 1), new Date(), "dd/MM/YY")}}',
+            usersatisfactionscore:{  
+               overallScore:'{{floating(0, 1, 2, "0%")}}',
+               ergonomyScore:'{{floating(0, 1, 2, "0%")}}',
+               stabilityScore:'{{floating(0, 1, 2, "0%")}}',
+               PerformanceScore:'{{floating(0, 1, 2, "0%")}}'
+            },
+            bugs:{  
+               minor:'{{integer(0,50)}}',
+               major:'{{integer(0,30)}}',
+               critical:'{{integer(0,10)}}'
+            },
+            nbUsers:'{{integer(1,20)*10}}',
+            tps:'{{integer(10,120)}}',
+            annualfees:'{{floating(0, 10000, 0, "$0,0")}}'
+         }
+      ]
+   }
+]
